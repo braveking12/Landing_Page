@@ -1,0 +1,161 @@
+/* styles.css */
+
+/* Reset default margin and padding */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e9efe5;
+}
+h1 {
+    color: #ffffff;
+    font-size: 35px;
+}
+/* Header styles */
+header {
+    background-color: #388;
+    padding: 10px 0;
+}
+/* this is my logo code  */
+.logo {
+    float: left;
+    margin-right: 20px;
+    position: absolute;
+    top: 18px;
+    left: 630px;
+}
+
+.logo img {
+    width: 150px; /* Adjust the width of the logo as needed */
+    height: auto;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-left: 500px;
+    
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 40px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 0px;
+    /* position: absolute; */
+    /* margin-right: 50px; */
+}
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+/* Hero section styles */
+.hero {
+    background-image: url('https://thumbs.dreamstime.com/z/natural-skincare-concept-woman-apply-white-cream-her-hands-background-jar-cosmetic-salt-spa-scrub-rose-flowers-copy-137906768.jpg?ct=jpeg');
+    /* Replace 'hero-image.jpg' with your image path */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+}
+
+.hero-content {
+    max-width: 600px;
+    padding: 20px;
+}
+/* this is my slid code */
+
+
+/* this is my gallery code */
+
+.gallery {
+    padding: 50px 0;
+    margin-top: 150px;
+    margin-bottom: -40px;
+}
+
+.gallery h2 {
+    margin-bottom: 20px;
+}
+
+.gallery-images {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+}
+
+.gallery-images img {
+    width: 100%;
+}
+.circle-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    position: absolute;
+    top: 480px;
+    left: 120px;
+    
+}
+
+.circle {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+    margin-left: 100px;
+}
+
+.glow, #a {
+    color: #fff;
+    font-size: 24px;
+    text-align: center;
+    transition: text-shadow 0.5s ease;
+    text-shadow: 0 0 10px #ffd700, 0 0 20px #ffd700, 0 0 30px #ffd700;
+    text-decoration-line: none;
+}
+
+#a:hover {
+    text-shadow: 0 0 10px #bcd7e4, 0 0 20px #ffd700, 0 0 30px #eedbee;
+} 
+/* code for footer */
+
+#Eml {
+    position: absolute;
+    left: 40px;
+}
+/* #cont { */
+    /* position: absolute; */
+    /* left: 650px; */
+/* } */
+/* #addr { */
+    /* position: absolute; */
+    /* left: 1000px; */
+/* } */
+/* #more { */
+    /* position: absolute; */
+    /* left: 650px; */
+    /* top: 1520px; */
+/* } */
