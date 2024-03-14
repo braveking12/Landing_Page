@@ -56,10 +56,12 @@ nav ul li a {
 
 /* Footer styles */
 footer {
+    margin-top: 28%;
     background-color: #333;
     color: #fff;
     padding: 10px 0;
     text-align: center;
+    height: auto;
 }
 
 /* Hero section styles */
@@ -146,10 +148,39 @@ footer {
     position: absolute;
     left: 40px;
 }
+/* CSS for the side box */
+/* CSS for the side box */
+.side-box {
+    position: absolute;
+    left: 0px;
+    top: 260%;
+    transform: translateY(-50%);
+    background-color: #f0f0f0;
+    padding: 20px;
+    border: 1px solid #ccc;
+    width: 98%; /* Set the width */
+    height: 300px; /* Set the height to make it a square */
+    overflow: hidden; /* Hide any content that exceeds the dimensions */
+  }
+  
+  .side-box h2 {
+    font-size: 35px;
+    margin-bottom: 10px;
+    padding: 30px 20px;
+  }
+  
+  .box-content p {
+    font-size: 14px;
+  }
+  h2 {
+    text-align: center;
+  }
+  
+
 /* Add your responsive CSS here */
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 668px) {
     .logo {
-      left: 50%; /* Center the logo horizontally */
+      left: 20%; /* Center the logo horizontally */
       transform: translateX(-50%);
       top: 10px; /* Adjust the top position as needed */
     }
@@ -171,7 +202,81 @@ footer {
       left: 50%; /* Center horizontally */
       transform: translateX(-50%);
     }
-  }
+  
+    /* Adjust other styles for mobile devices */
+    /* Reset default margin and padding */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e9efe5;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+/* Header styles */
+header {
+    background-color: #388;
+    padding: 10px 0;
+}
+
+/* Hero section styles */
+.hero {
+    background-image: url('https://thumbs.dreamstime.com/z/natural-skincare-concept-woman-apply-white-cream-her-hands-background-jar-cosmetic-salt-spa-scrub-rose-flowers-copy-137906768.jpg?ct=jpeg');
+    /* Replace 'hero-image.jpg' with your image path */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+}
+
+/* CSS for the side box */
+.side-box {
+    /* Box styles */
+    margin-top: 20px;
+}
+
+.side-box h2 {
+    font-size: 25px;
+    margin-bottom: 10px;
+    padding: 30px 10px;
+}
+
+.box-content p {
+    font-size: 14px;
+}
+
+/* Circle container and gallery styles */
+.circle-container {
+    display: none;
+    
+}
+
+.gallery {
+    padding: 50px 0;
+    margin-top: 150px;
+    margin-bottom: -40px;
+}
+
+/* Footer styles */
+footer {
+    display: none;
+}
+
+}
+
+  
   
   /* Add more media queries for smaller screen sizes if necessary */
   
