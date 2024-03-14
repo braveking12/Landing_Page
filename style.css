@@ -146,16 +146,32 @@ footer {
     position: absolute;
     left: 40px;
 }
-/* #cont { */
-    /* position: absolute; */
-    /* left: 650px; */
-/* } */
-/* #addr { */
-    /* position: absolute; */
-    /* left: 1000px; */
-/* } */
-/* #more { */
-    /* position: absolute; */
-    /* left: 650px; */
-    /* top: 1520px; */
-/* } */
+/* Add your responsive CSS here */
+@media only screen and (max-width: 768px) {
+    .logo {
+      left: 50%; /* Center the logo horizontally */
+      transform: translateX(-50%);
+      top: 10px; /* Adjust the top position as needed */
+    }
+  
+    nav ul {
+      margin-left: 0; /* Remove left margin */
+      text-align: center; /* Center align the nav items */
+    }
+  
+    nav ul li {
+      display: block; /* Display nav items as block */
+      margin: 10px 0; /* Add vertical spacing between nav items */
+    }
+  
+    .circle-container {
+      flex-direction: column; /* Stack circles vertically */
+      top: auto; /* Reset top position */
+      bottom: 50px; /* Adjust bottom position */
+      left: 50%; /* Center horizontally */
+      transform: translateX(-50%);
+    }
+  }
+  
+  /* Add more media queries for smaller screen sizes if necessary */
+  
