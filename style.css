@@ -9,6 +9,10 @@ body, h1, h2, h3, p, ul, li {
 body {
     font-family: Arial, sans-serif;
     background-color: #e9efe5;
+    
+}
+a {
+    text-decoration: none;
 }
 h1 {
     color: #ffffff;
@@ -153,7 +157,7 @@ footer {
 .side-box {
     position: absolute;
     left: 0px;
-    top: 260%;
+    top: 250%;
     transform: translateY(-50%);
     background-color: #f0f0f0;
     padding: 20px;
@@ -164,9 +168,9 @@ footer {
   }
   
   .side-box h2 {
-    font-size: 35px;
+    font-size: 25px;
     margin-bottom: 10px;
-    padding: 30px 20px;
+    padding: 10px 10px;
   }
   
   .box-content p {
@@ -175,7 +179,21 @@ footer {
   h2 {
     text-align: center;
   }
-  
+  #cont {
+    text-align: left;
+    margin-left: 40px;
+    text-transform: capitalize;
+  }
+  #links{
+    text-align: center;
+    align-items: center;
+  }
+  #links li{
+    display: block;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    
+}
 
 /* Add your responsive CSS here */
 @media only screen and (max-width: 668px) {
@@ -244,17 +262,16 @@ header {
 /* CSS for the side box */
 .side-box {
     /* Box styles */
-    margin-top: 20px;
+    margin-top: -300px;
 }
 
 .side-box h2 {
-    font-size: 25px;
-    margin-bottom: 10px;
-    padding: 30px 10px;
+    font-size: 15px;
+    
 }
 
 .box-content p {
-    font-size: 14px;
+    font-size: 12px;
 }
 
 /* Circle container and gallery styles */
@@ -265,7 +282,7 @@ header {
 
 .gallery {
     padding: 50px 0;
-    margin-top: 150px;
+    margin-top: 0px;
     margin-bottom: -40px;
 }
 
@@ -273,10 +290,13 @@ header {
 footer {
     display: none;
 }
-
+#links, li{
+    display: block;
+    font-size: 12px;
+    
 }
-
-  
-  
-  /* Add more media queries for smaller screen sizes if necessary */
-  
+#links{
+    font-size: 12px;
+    
+  }
+}
